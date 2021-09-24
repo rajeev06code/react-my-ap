@@ -1,0 +1,117 @@
+.rightbarContainer{
+flex: 4;
+position: sticky;
+height: calc(100vh - 60px);
+
+overflow-y: scroll;
+top: 60px;
+
+}
+iframe{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+.rightBarWrapper{
+    padding: 20px 20px 20px 20px;
+}
+.bdayContainer{
+    display: flex;
+    align-items: center;
+}
+.bdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.rightBarFriendsList{
+    margin-top: 10px;
+   
+    /* display: flex; */
+    align-items: center;
+    
+}
+.rightBarAd{
+   width: 100%;
+   max-height: 400px;
+   margin-top: 20px;
+   border-radius: 5px;
+   margin-bottom: 20px;
+}
+.onlineText{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.onlineFriends{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+    /* position: relative */
+   
+}
+
+
+.onlineIndicator{
+    top: 0;
+    right: -4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #2f9e44;
+}
+/* .contImg{
+    position: relative;
+    margin-right: 9px;
+} */
+.rightBarInfo{
+    margin-bottom: 30px;
+
+}
+.rightBarInfoItems{
+margin-bottom: 10px;
+}
+
+.rightBarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightBarFollowingsImg{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
+
+.rightBarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightBarInfoValue{
+    font-weight: 300;
+}
+
+.rightBarFollowings{
+    width: 100%;
+    /* margin: 0 auto; */
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.rightBarFollowing{
+    width: 70px;
+    height: 70px;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 20px;
+ cursor: pointer;
+}
+.rightBarFollowingsName{
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 15px;
+}

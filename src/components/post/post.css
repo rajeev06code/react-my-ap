@@ -1,0 +1,80 @@
+.feedPost{
+    padding: 15px;
+    /* width: 100%; */
+    border-radius: 10px;
+    margin: 30px 0;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* background-color: greenyellow; */
+}
+.postwrapper{
+    padding: 1px 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+.postUserImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.postUser{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.postTime{
+    color: grey;
+    font-size: 12px;
+}
+.postCenter{
+    margin-top: 10px;
+}
+.postImg{
+    width: 100%;
+    margin-top: 20px;
+   max-height:500px;
+    object-fit: cover;
+}
+.postBottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+
+}
+.postHeart{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.postLike{
+    width: 24px;
+    height: 24px;
+  margin-right:5px ;
+    cursor: pointer;
+
+}
+
+.likeCounter{
+    font-size: 15px;
+}
+.postCommentCount{
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+}
